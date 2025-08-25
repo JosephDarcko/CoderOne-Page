@@ -1,0 +1,147 @@
+{
+  "common": {
+    "back_to_home": "← Torna alla Home",
+    "notify_me": "Avvisami",
+    "submit": "Invia",
+    "cancel": "Annulla",
+    "star_on_github": "★ Stella su GitHub",
+    "coming_soon": "Prossimamente",
+    "view_roadmap": "Visualizza roadmap"
+  },
+  "navigation": {
+    "brand": "CoderOne IDE",
+    "version": "v0 · Prossimamente"
+  },
+  "hero": {
+    "tagline": "Costruisci come pensi.<br/>Parla con il tuo IDE e guardalo creare.",
+    "description": "CoderOne IDE è un IDE di nuova generazione. Il livello gratuito non ha IA o funzionalità avanzate. I livelli a pagamento sbloccano tutte le funzionalità alimentate dall'IA."
+  },
+  "features": {
+    "talk_to_code": {
+      "title": "Motore Parla-al-Codice",
+      "description": "Descrivi le funzionalità in italiano semplice. Le versioni a pagamento costruiscono file, collegano moduli e committano differenze pulite."
+    },
+    "offline_first": {
+      "title": "Prima Offline",
+      "description": "Funziona localmente. Mantieni il tuo codice privato mentre sblocchi i superpoteri dell'IA."
+    },
+    "one_time_license": {
+      "title": "Licenza Una Tantum",
+      "description": "Compra una volta, continua a costruire. Add-on opzionali per team e aziende."
+    }
+  },
+  "pricing": {
+    "preview": "Anteprima prezzi",
+    "title": "Scegli il tuo livello di potenza",
+    "starter": {
+      "name": "Starter",
+      "price": "Gratuito",
+      "period": "(promo lancio)",
+      "features": [
+        "Editor principale + sintassi",
+        "Progetti locali fino a 1 repository",
+        "Niente IA o funzioni avanzate"
+      ]
+    },
+    "lite": {
+      "name": "Lite",
+      "price": "Da definire",
+      "period": "una tantum",
+      "features": [
+        "Assistente di build IA completo",
+        "Workspace multi-repository",
+        "Refactoring e generazione test",
+        "Integrazione modello offline"
+      ]
+    },
+    "team": {
+      "name": "Team",
+      "price": "Da definire",
+      "period": "una tantum",
+      "features": [
+        "Tutte le funzionalità Lite",
+        "Progetti collaborativi",
+        "Flussi di lavoro IA per team"
+      ]
+    },
+    "full": {
+      "name": "Completo",
+      "price": "Da definire",
+      "period": "una tantum",
+      "features": [
+        "Tutte le funzionalità Team",
+        "Integrazioni aziendali",
+        "IA avanzata e strumenti di sviluppo"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 CoderOne IDE. Tutti i diritti riservati."
+  },
+  "star_page": {
+    "title": "⭐ Valuta CoderOne IDE",
+    "subtitle": "Aiutaci a migliorare condividendo i tuoi pensieri e valutando il nostro progetto!",
+    "rate_question": "Come valuteresti CoderOne IDE?",
+    "click_star": "Clicca su una stella per valutare",
+    "feedback_title": "Condividi il tuo feedback (opzionale)",
+    "feedback_placeholder": "Dicci cosa pensi di CoderOne IDE, quali funzionalità vorresti vedere o qualsiasi suggerimento per miglioramenti...",
+    "submit_rating": "Invia Valutazione e Feedback",
+    "github_section_title": "⭐ Dacci una stella su GitHub!",
+    "github_description": "Se ti piace CoderOne IDE, per favore considera di dare una stella al nostro repository GitHub per aiutare altri a scoprire il nostro progetto.",
+    "report_issues": "📝 Segnala Problemi",
+    "rating_messages": {
+      "1": "😞 Ci dispiace sentirlo. Il tuo feedback ci aiuterà a migliorare!",
+      "2": "😐 C'è spazio per miglioramenti. Dicci come possiamo fare meglio.",
+      "3": "🙂 Non male! Ci piacerebbe sentire i tuoi suggerimenti.",
+      "4": "😊 Fantastico! Siamo felici che CoderOne IDE ti piaccia.",
+      "5": "🤩 Incredibile! Grazie per la valutazione fantastica!"
+    }
+  },
+  "roadmap": {
+    "title": "Roadmap CoderOne IDE",
+    "items": [
+      "Q3 2025: Lancio pubblico versione Lite (codifica assistita da IA)",
+      "Q4 2025: Versione Team con progetti collaborativi",
+      "Q1 2026: IDE completo con integrazioni aziendali",
+      "Q2 2026: Supporto modello IA offline e marketplace plugin",
+      "Continuo: Aggiornamenti continui e nuove funzionalità basate sul feedback degli utenti"
+    ],
+    "invest_btn": "Diventa un Investitore"
+  },
+  "investors": {
+    "title": "Investi in CoderOne IDE",
+    "subtitle": "Unisciti a noi nella costruzione dell'IDE definitivo alimentato dall'IA.",
+    "seed_title": "💰 Investitore Seed",
+    "seed_description": "Unisciti al nostro round di finanziamento iniziale e aiuta a plasmare il futuro dello sviluppo alimentato dall'IA.",
+    "seed_features": [
+      "Accesso anticipato a tutte le versioni del prodotto",
+      "Comunicazione diretta con il nostro team di sviluppo",
+      "Report di progresso trimestrali e aggiornamenti esclusivi",
+      "Potenziale partecipazione azionaria"
+    ],
+    "growth_title": "🚀 Partner di Crescita",
+    "growth_description": "Collabora con noi mentre scaliamo e portiamo lo sviluppo alimentato dall'IA agli sviluppatori di tutto il mondo.",
+    "growth_features": [
+      "Tutti i vantaggi dell'Investitore Seed",
+      "Influenza sulla roadmap del prodotto",
+      "Opportunità di beta testing",
+      "Opportunità di collaborazione marketing"
+    ],
+    "visionary_title": "🌟 Sostenitore Visionario",
+    "visionary_description": "Unisciti alla nostra visione per il futuro dello sviluppo software con significative opportunità di partnership.",
+    "visionary_features": [
+      "Tutti i vantaggi del Partner di Crescita",
+      "Discussioni di partnership strategica",
+      "Opportunità di condivisione ricavi",
+      "Possibilità di co-sviluppo"
+    ],
+    "enterprise_title": "🏢 Partner Aziendale",
+    "enterprise_description": "Soluzioni aziendali personalizzate e partnership di integrazione per grandi organizzazioni.",
+    "enterprise_features": [
+      "Licenza aziendale personalizzata",
+      "Supporto integrazione prioritario",
+      "Gestione account dedicata",
+      "Sviluppo funzionalità personalizzate"
+    ]
+  }
+}

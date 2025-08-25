@@ -1,0 +1,147 @@
+{
+  "common": {
+    "back_to_home": "← Back to Home",
+    "notify_me": "Notify me",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "star_on_github": "★ Star on GitHub",
+    "coming_soon": "Coming soon",
+    "view_roadmap": "View roadmap"
+  },
+  "navigation": {
+    "brand": "CoderOne IDE",
+    "version": "v0 · Coming Soon"
+  },
+  "hero": {
+    "tagline": "Build as you think.<br/>Talk to your IDE and watch it create.",
+    "description": "CoderOne IDE is a next‑gen IDE. Free tier has no AI or advanced features. Paid tiers unlock full AI-powered functionality."
+  },
+  "features": {
+    "talk_to_code": {
+      "title": "Talk‑to‑Code Engine",
+      "description": "Describe features in plain English. Paid versions scaffold files, wire modules, and commit clean diffs."
+    },
+    "offline_first": {
+      "title": "Offline‑First",
+      "description": "Runs locally. Keep your code private while unlocking AI superpowers."
+    },
+    "one_time_license": {
+      "title": "One‑Time License",
+      "description": "Buy once, keep building. Optional add-ons for teams and enterprises."
+    }
+  },
+  "pricing": {
+    "preview": "Pricing preview",
+    "title": "Choose your power level",
+    "starter": {
+      "name": "Starter",
+      "price": "Free",
+      "period": "(launch promo)",
+      "features": [
+        "Core editor + syntax",
+        "Local projects up to 1 repo",
+        "No AI or advanced functions"
+      ]
+    },
+    "lite": {
+      "name": "Lite",
+      "price": "TBA",
+      "period": "one‑time",
+      "features": [
+        "Full AI build assistant",
+        "Multi-repo workspaces",
+        "Refactor & test generation",
+        "Offline model integration"
+      ]
+    },
+    "team": {
+      "name": "Team",
+      "price": "TBA",
+      "period": "one‑time",
+      "features": [
+        "All Lite features",
+        "Collaborative projects",
+        "Team AI workflows"
+      ]
+    },
+    "full": {
+      "name": "Full",
+      "price": "TBA",
+      "period": "one‑time",
+      "features": [
+        "All Team features",
+        "Enterprise integrations",
+        "Advanced AI & dev tools"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 CoderOne IDE. All rights reserved."
+  },
+  "star_page": {
+    "title": "⭐ Rate CoderOne IDE",
+    "subtitle": "Help us improve by sharing your thoughts and rating our project!",
+    "rate_question": "How would you rate CoderOne IDE?",
+    "click_star": "Click a star to rate",
+    "feedback_title": "Share your feedback (optional)",
+    "feedback_placeholder": "Tell us what you think about CoderOne IDE, what features you'd like to see, or any suggestions for improvement...",
+    "submit_rating": "Submit Rating & Feedback",
+    "github_section_title": "⭐ Star us on GitHub!",
+    "github_description": "If you like CoderOne IDE, please consider starring our GitHub repository to help others discover our project.",
+    "report_issues": "📝 Report Issues",
+    "rating_messages": {
+      "1": "😞 We're sorry to hear that. Your feedback will help us improve!",
+      "2": "😐 There's room for improvement. Tell us how we can do better.",
+      "3": "🙂 Not bad! We'd love to hear your suggestions.",
+      "4": "😊 Great! We're glad you like CoderOne IDE.",
+      "5": "🤩 Awesome! Thank you for the amazing rating!"
+    }
+  },
+  "roadmap": {
+    "title": "CoderOne IDE Roadmap",
+    "items": [
+      "Q3 2025: Lite version public launch (AI-assisted coding)",
+      "Q4 2025: Team version with collaborative projects",
+      "Q1 2026: Full IDE with enterprise integrations",
+      "Q2 2026: Offline AI model support and plugin marketplace",
+      "Ongoing: Continuous updates and new features based on user feedback"
+    ],
+    "invest_btn": "Become an Investor"
+  },
+  "investors": {
+    "title": "Invest in CoderOne IDE",
+    "subtitle": "Join us in building the ultimate AI-powered IDE.",
+    "seed_title": "💰 Seed Investor",
+    "seed_description": "Join our early funding round and help shape the future of AI-powered development.",
+    "seed_features": [
+      "Early access to all product versions",
+      "Direct communication with our development team",
+      "Quarterly progress reports and exclusive updates",
+      "Potential equity participation"
+    ],
+    "growth_title": "🚀 Growth Partner",
+    "growth_description": "Partner with us as we scale and bring AI-powered development to developers worldwide.",
+    "growth_features": [
+      "All Seed Investor benefits",
+      "Product roadmap influence",
+      "Beta testing opportunities",
+      "Marketing collaboration opportunities"
+    ],
+    "visionary_title": "🌟 Visionary Backer",
+    "visionary_description": "Join our vision for the future of software development with significant partnership opportunities.",
+    "visionary_features": [
+      "All Growth Partner benefits",
+      "Strategic partnership discussions",
+      "Revenue sharing opportunities",
+      "Co-development possibilities"
+    ],
+    "enterprise_title": "🏢 Enterprise Partner",
+    "enterprise_description": "Custom enterprise solutions and integration partnerships for large organizations.",
+    "enterprise_features": [
+      "Custom enterprise licensing",
+      "Priority integration support",
+      "Dedicated account management",
+      "Custom feature development"
+    ]
+  }
+}

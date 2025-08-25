@@ -1,0 +1,147 @@
+{
+  "common": {
+    "back_to_home": "← Volver al Inicio",
+    "notify_me": "Notificarme",
+    "submit": "Enviar",
+    "cancel": "Cancelar",
+    "star_on_github": "★ Estrella en GitHub",
+    "coming_soon": "Próximamente",
+    "view_roadmap": "Ver hoja de ruta"
+  },
+  "navigation": {
+    "brand": "CoderOne IDE",
+    "version": "v0 · Próximamente"
+  },
+  "hero": {
+    "tagline": "Construye como piensas.<br/>Habla con tu IDE y míralo crear.",
+    "description": "CoderOne IDE es un IDE de nueva generación. El nivel gratuito no tiene IA ni funciones avanzadas. Los niveles pagados desbloquean toda la funcionalidad con IA."
+  },
+  "features": {
+    "talk_to_code": {
+      "title": "Motor Habla-a-Código",
+      "description": "Describe características en español simple. Las versiones pagadas estructuran archivos, conectan módulos y confirman diferencias limpias."
+    },
+    "offline_first": {
+      "title": "Primero Sin Conexión",
+      "description": "Funciona localmente. Mantén tu código privado mientras desbloqueas superpoderes de IA."
+    },
+    "one_time_license": {
+      "title": "Licencia de Una Vez",
+      "description": "Compra una vez, sigue construyendo. Complementos opcionales para equipos y empresas."
+    }
+  },
+  "pricing": {
+    "preview": "Vista previa de precios",
+    "title": "Elige tu nivel de poder",
+    "starter": {
+      "name": "Inicial",
+      "price": "Gratis",
+      "period": "(promoción de lanzamiento)",
+      "features": [
+        "Editor principal + sintaxis",
+        "Proyectos locales hasta 1 repositorio",
+        "Sin IA ni funciones avanzadas"
+      ]
+    },
+    "lite": {
+      "name": "Ligero",
+      "price": "Por determinar",
+      "period": "una vez",
+      "features": [
+        "Asistente de construcción IA completo",
+        "Espacios de trabajo multi-repositorio",
+        "Refactorización y generación de pruebas",
+        "Integración de modelo sin conexión"
+      ]
+    },
+    "team": {
+      "name": "Equipo",
+      "price": "Por determinar",
+      "period": "una vez",
+      "features": [
+        "Todas las características Ligero",
+        "Proyectos colaborativos",
+        "Flujos de trabajo IA para equipos"
+      ]
+    },
+    "full": {
+      "name": "Completo",
+      "price": "Por determinar",
+      "period": "una vez",
+      "features": [
+        "Todas las características de Equipo",
+        "Integraciones empresariales",
+        "IA avanzada y herramientas de desarrollo"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 CoderOne IDE. Todos los derechos reservados."
+  },
+  "star_page": {
+    "title": "⭐ Califica CoderOne IDE",
+    "subtitle": "¡Ayúdanos a mejorar compartiendo tus pensamientos y calificando nuestro proyecto!",
+    "rate_question": "¿Cómo calificarías CoderOne IDE?",
+    "click_star": "Haz clic en una estrella para calificar",
+    "feedback_title": "Comparte tu opinión (opcional)",
+    "feedback_placeholder": "Cuéntanos qué piensas sobre CoderOne IDE, qué características te gustaría ver, o cualquier sugerencia de mejora...",
+    "submit_rating": "Enviar Calificación y Opinión",
+    "github_section_title": "⭐ ¡Danos una estrella en GitHub!",
+    "github_description": "Si te gusta CoderOne IDE, por favor considera darle una estrella a nuestro repositorio de GitHub para ayudar a otros a descubrir nuestro proyecto.",
+    "report_issues": "📝 Reportar Problemas",
+    "rating_messages": {
+      "1": "😞 Lamentamos escuchar eso. ¡Tu opinión nos ayudará a mejorar!",
+      "2": "😐 Hay espacio para mejorar. Dinos cómo podemos hacerlo mejor.",
+      "3": "🙂 ¡No está mal! Nos encantaría escuchar tus sugerencias.",
+      "4": "😊 ¡Genial! Nos alegra que te guste CoderOne IDE.",
+      "5": "🤩 ¡Increíble! ¡Gracias por la calificación fantástica!"
+    }
+  },
+  "roadmap": {
+    "title": "Hoja de Ruta de CoderOne IDE",
+    "items": [
+      "T3 2025: Lanzamiento público versión Ligero (codificación asistida por IA)",
+      "T4 2025: Versión Equipo con proyectos colaborativos",
+      "T1 2026: IDE completo con integraciones empresariales",
+      "T2 2026: Soporte de modelo IA sin conexión y mercado de plugins",
+      "Continuo: Actualizaciones continuas y nuevas características basadas en comentarios de usuarios"
+    ],
+    "invest_btn": "Convertirse en Inversor"
+  },
+  "investors": {
+    "title": "Invierte en CoderOne IDE",
+    "subtitle": "Únete a nosotros en la construcción del IDE definitivo con IA.",
+    "seed_title": "💰 Inversor Semilla",
+    "seed_description": "Únete a nuestra ronda de financiación temprana y ayuda a dar forma al futuro del desarrollo con IA.",
+    "seed_features": [
+      "Acceso temprano a todas las versiones del producto",
+      "Comunicación directa con nuestro equipo de desarrollo",
+      "Informes de progreso trimestrales y actualizaciones exclusivas",
+      "Participación potencial en acciones"
+    ],
+    "growth_title": "🚀 Socio de Crecimiento",
+    "growth_description": "Asóciate con nosotros mientras escalamos y llevamos el desarrollo con IA a desarrolladores de todo el mundo.",
+    "growth_features": [
+      "Todos los beneficios de Inversor Semilla",
+      "Influencia en la hoja de ruta del producto",
+      "Oportunidades de pruebas beta",
+      "Oportunidades de colaboración en marketing"
+    ],
+    "visionary_title": "🌟 Patrocinador Visionario",
+    "visionary_description": "Únete a nuestra visión para el futuro del desarrollo de software con oportunidades de asociación significativas.",
+    "visionary_features": [
+      "Todos los beneficios de Socio de Crecimiento",
+      "Discusiones de asociación estratégica",
+      "Oportunidades de compartir ingresos",
+      "Posibilidades de co-desarrollo"
+    ],
+    "enterprise_title": "🏢 Socio Empresarial",
+    "enterprise_description": "Soluciones empresariales personalizadas y asociaciones de integración para organizaciones grandes.",
+    "enterprise_features": [
+      "Licenciamiento empresarial personalizado",
+      "Soporte de integración prioritario",
+      "Gestión de cuenta dedicada",
+      "Desarrollo de características personalizadas"
+    ]
+  }
+}
