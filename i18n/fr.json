@@ -1,0 +1,147 @@
+{
+  "common": {
+    "back_to_home": "← Retour à l'accueil",
+    "notify_me": "Me notifier",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "star_on_github": "★ Étoile sur GitHub",
+    "coming_soon": "Bientôt disponible",
+    "view_roadmap": "Voir la feuille de route"
+  },
+  "navigation": {
+    "brand": "CoderOne IDE",
+    "version": "v0 · Bientôt disponible"
+  },
+  "hero": {
+    "tagline": "Construisez comme vous pensez.<br/>Parlez à votre IDE et regardez-le créer.",
+    "description": "CoderOne IDE est un IDE de nouvelle génération. Le niveau gratuit n'a pas d'IA ou de fonctionnalités avancées. Les niveaux payants débloquent toute la fonctionnalité alimentée par l'IA."
+  },
+  "features": {
+    "talk_to_code": {
+      "title": "Moteur Parole-vers-Code",
+      "description": "Décrivez les fonctionnalités en français simple. Les versions payantes échafaudent les fichiers, relient les modules et valident des différences propres."
+    },
+    "offline_first": {
+      "title": "Hors ligne d'abord",
+      "description": "Fonctionne localement. Gardez votre code privé tout en débloquant les super-pouvoirs de l'IA."
+    },
+    "one_time_license": {
+      "title": "Licence unique",
+      "description": "Achetez une fois, continuez à construire. Modules complémentaires optionnels pour les équipes et les entreprises."
+    }
+  },
+  "pricing": {
+    "preview": "Aperçu des prix",
+    "title": "Choisissez votre niveau de puissance",
+    "starter": {
+      "name": "Débutant",
+      "price": "Gratuit",
+      "period": "(promo de lancement)",
+      "features": [
+        "Éditeur principal + syntaxe",
+        "Projets locaux jusqu'à 1 dépôt",
+        "Pas d'IA ni de fonctions avancées"
+      ]
+    },
+    "lite": {
+      "name": "Léger",
+      "price": "À déterminer",
+      "period": "une fois",
+      "features": [
+        "Assistant de construction IA complet",
+        "Espaces de travail multi-dépôts",
+        "Refactorisation et génération de tests",
+        "Intégration de modèle hors ligne"
+      ]
+    },
+    "team": {
+      "name": "Équipe",
+      "price": "À déterminer",
+      "period": "une fois",
+      "features": [
+        "Toutes les fonctionnalités Léger",
+        "Projets collaboratifs",
+        "Flux de travail IA d'équipe"
+      ]
+    },
+    "full": {
+      "name": "Complet",
+      "price": "À déterminer",
+      "period": "une fois",
+      "features": [
+        "Toutes les fonctionnalités Équipe",
+        "Intégrations d'entreprise",
+        "IA avancée et outils de développement"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 CoderOne IDE. Tous droits réservés."
+  },
+  "star_page": {
+    "title": "⭐ Évaluez CoderOne IDE",
+    "subtitle": "Aidez-nous à nous améliorer en partageant vos pensées et en évaluant notre projet !",
+    "rate_question": "Comment évalueriez-vous CoderOne IDE ?",
+    "click_star": "Cliquez sur une étoile pour évaluer",
+    "feedback_title": "Partagez vos commentaires (optionnel)",
+    "feedback_placeholder": "Dites-nous ce que vous pensez de CoderOne IDE, quelles fonctionnalités vous aimeriez voir, ou toute suggestion d'amélioration...",
+    "submit_rating": "Soumettre l'évaluation et les commentaires",
+    "github_section_title": "⭐ Donnez-nous une étoile sur GitHub !",
+    "github_description": "Si vous aimez CoderOne IDE, veuillez considérer donner une étoile à notre dépôt GitHub pour aider d'autres à découvrir notre projet.",
+    "report_issues": "📝 Signaler des problèmes",
+    "rating_messages": {
+      "1": "😞 Nous sommes désolés d'entendre cela. Vos commentaires nous aideront à nous améliorer !",
+      "2": "😐 Il y a de la place pour l'amélioration. Dites-nous comment nous pouvons faire mieux.",
+      "3": "🙂 Pas mal ! Nous aimerions entendre vos suggestions.",
+      "4": "😊 Génial ! Nous sommes heureux que CoderOne IDE vous plaise.",
+      "5": "🤩 Fantastique ! Merci pour cette évaluation incroyable !"
+    }
+  },
+  "roadmap": {
+    "title": "Feuille de route CoderOne IDE",
+    "items": [
+      "T3 2025 : Lancement public version Léger (codage assisté par IA)",
+      "T4 2025 : Version Équipe avec projets collaboratifs",
+      "T1 2026 : IDE complet avec intégrations d'entreprise",
+      "T2 2026 : Support de modèle IA hors ligne et marché de plugins",
+      "En cours : Mises à jour continues et nouvelles fonctionnalités basées sur les commentaires des utilisateurs"
+    ],
+    "invest_btn": "Devenir un investisseur"
+  },
+  "investors": {
+    "title": "Investissez dans CoderOne IDE",
+    "subtitle": "Rejoignez-nous pour construire l'IDE ultime alimenté par l'IA.",
+    "seed_title": "💰 Investisseur de démarrage",
+    "seed_description": "Rejoignez notre tour de financement précoce et aidez à façonner l'avenir du développement alimenté par l'IA.",
+    "seed_features": [
+      "Accès anticipé à toutes les versions du produit",
+      "Communication directe avec notre équipe de développement",
+      "Rapports de progrès trimestriels et mises à jour exclusives",
+      "Participation potentielle aux actions"
+    ],
+    "growth_title": "🚀 Partenaire de croissance",
+    "growth_description": "Partenaire avec nous pendant que nous nous développons et apportons le développement alimenté par l'IA aux développeurs du monde entier.",
+    "growth_features": [
+      "Tous les avantages de l'investisseur de démarrage",
+      "Influence sur la feuille de route du produit",
+      "Opportunités de test bêta",
+      "Opportunités de collaboration marketing"
+    ],
+    "visionary_title": "🌟 Mécène visionnaire",
+    "visionary_description": "Rejoignez notre vision pour l'avenir du développement logiciel avec des opportunités de partenariat significatives.",
+    "visionary_features": [
+      "Tous les avantages du partenaire de croissance",
+      "Discussions de partenariat stratégique",
+      "Opportunités de partage des revenus",
+      "Possibilités de co-développement"
+    ],
+    "enterprise_title": "🏢 Partenaire d'entreprise",
+    "enterprise_description": "Solutions d'entreprise personnalisées et partenariats d'intégration pour les grandes organisations.",
+    "enterprise_features": [
+      "Licence d'entreprise personnalisée",
+      "Support d'intégration prioritaire",
+      "Gestion de compte dédiée",
+      "Développement de fonctionnalités personnalisées"
+    ]
+  }
+}

@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Invest in CoderOne IDE</title>
+<title data-i18n="investors.title">Invest in CoderOne IDE</title>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
   body{background:#0a0a0b;color:#e8ecf8;font-family:'Roboto',sans-serif;margin:0;padding:0;}
@@ -46,52 +46,56 @@
 </head>
 <body>
 <header>
-<h1>Invest in CoderOne IDE</h1>
-<p style="color:#8b92a7;margin-top:10px;">Join us in building the ultimate AI-powered IDE.</p>
+<h1 data-i18n="investors.title">Invest in CoderOne IDE</h1>
+<p style="color:#8b92a7;margin-top:10px;" data-i18n="investors.subtitle">Join us in building the ultimate AI-powered IDE.</p>
 </header>
 <main>
 <div class="tier">
-<h2>Seed Investor</h2>
-<p>Early supporters gain private roadmap access, beta testing privileges, and recognition on our platform.</p>
-<ul>
-<li>Private updates</li>
-<li>Beta access to new features</li>
-<li>Early feedback influence</li>
+<h2 data-i18n="investors.seed_title">💰 Seed Investor</h2>
+<p data-i18n="investors.seed_description">Join our early funding round and help shape the future of AI-powered development.</p>
+<ul data-i18n-array="investors.seed_features">
+<li>Early access to all product versions</li>
+<li>Direct communication with our development team</li>
+<li>Quarterly progress reports and exclusive updates</li>
+<li>Potential equity participation</li>
 </ul>
-<button class="btn" onclick="openInvestmentForm('seed')">Invest Now</button>
+<button class="btn" onclick="openInvestmentForm('seed')" data-i18n="common.submit">Invest Now</button>
 </div>
 <div class="tier">
-<h2>Growth Investor</h2>
-<p>Participate in milestone bonuses, exclusive feature previews, and VIP community access.</p>
-<ul>
-<li>Milestone rewards</li>
-<li>Exclusive previews</li>
-<li>VIP support channel</li>
+<h2 data-i18n="investors.growth_title">🚀 Growth Partner</h2>
+<p data-i18n="investors.growth_description">Partner with us while we scale and bring AI-powered development to developers worldwide.</p>
+<ul data-i18n-array="investors.growth_features">
+<li>All Seed Investor benefits</li>
+<li>Influence on product roadmap</li>
+<li>Beta testing opportunities</li>
+<li>Marketing collaboration opportunities</li>
 </ul>
-<button class="btn" onclick="openInvestmentForm('growth')">Invest Now</button>
+<button class="btn" onclick="openInvestmentForm('growth')" data-i18n="common.submit">Invest Now</button>
 </div>
 <div class="tier">
-<h2>Enterprise Partner</h2>
-<p>Unlock company-wide integrations, full development support, and co-branding opportunities.</p>
-<ul>
-<li>Enterprise integration</li>
-<li>Priority support</li>
-<li>Co-branding & marketing</li>
+<h2 data-i18n="investors.enterprise_title">🏢 Enterprise Partner</h2>
+<p data-i18n="investors.enterprise_description">Custom enterprise solutions and integration partnerships for large organizations.</p>
+<ul data-i18n-array="investors.enterprise_features">
+<li>Custom enterprise licensing</li>
+<li>Priority integration support</li>
+<li>Dedicated account management</li>
+<li>Custom feature development</li>
 </ul>
-<button class="btn" onclick="openInvestmentForm('enterprise')">Invest Now</button>
+<button class="btn" onclick="openInvestmentForm('enterprise')" data-i18n="common.submit">Invest Now</button>
 </div>
 <div class="tier">
-<h2>Visionary Patron</h2>
-<p>Full access to all CoderOne IDE tools, AI modules, and strategic partnership benefits.</p>
-<ul>
-<li>Complete IDE access</li>
-<li>Direct influence on roadmap</li>
-<li>Priority collaboration & revenue sharing</li>
+<h2 data-i18n="investors.visionary_title">🌟 Visionary Backer</h2>
+<p data-i18n="investors.visionary_description">Join our vision for the future of software development with significant partnership opportunities.</p>
+<ul data-i18n-array="investors.visionary_features">
+<li>All Growth Partner benefits</li>
+<li>Strategic partnership discussions</li>
+<li>Revenue sharing opportunities</li>
+<li>Co-development possibilities</li>
 </ul>
-<button class="btn" onclick="openInvestmentForm('visionary')">Invest Now</button>
+<button class="btn" onclick="openInvestmentForm('visionary')" data-i18n="common.submit">Invest Now</button>
 </div>
 </main>
-<footer><a href="road_map (1).html">← Back to Roadmap</a></footer>
+<footer><a href="road_map (1).html" data-i18n="common.back_to_home">← Back to Roadmap</a></footer>
 
 <!-- Investment Form Modals -->
 <dialog id="seedModal">
@@ -385,6 +389,7 @@ document.querySelectorAll('dialog').forEach(dialog => {
   });
 });
 </script>
+<script src="./i18n.js"></script>
 
 </body>
 </html>

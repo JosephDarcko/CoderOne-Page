@@ -1,0 +1,147 @@
+{
+  "common": {
+    "back_to_home": "← Zurück zur Startseite",
+    "notify_me": "Benachrichtigen",
+    "submit": "Einreichen",
+    "cancel": "Abbrechen",
+    "star_on_github": "★ Stern auf GitHub",
+    "coming_soon": "Demnächst",
+    "view_roadmap": "Roadmap anzeigen"
+  },
+  "navigation": {
+    "brand": "CoderOne IDE",
+    "version": "v0 · Demnächst"
+  },
+  "hero": {
+    "tagline": "Baue wie du denkst.<br/>Sprich mit deiner IDE und sieh zu, wie sie erstellt.",
+    "description": "CoderOne IDE ist eine IDE der nächsten Generation. Der kostenlose Tier hat keine KI oder erweiterten Funktionen. Bezahlte Tiers schalten die volle KI-gestützte Funktionalität frei."
+  },
+  "features": {
+    "talk_to_code": {
+      "title": "Sprechen-zu-Code Engine",
+      "description": "Beschreibe Funktionen auf einfachem Deutsch. Bezahlte Versionen erstellen Dateien, verknüpfen Module und übernehmen saubere Unterschiede."
+    },
+    "offline_first": {
+      "title": "Offline-First",
+      "description": "Läuft lokal. Halte deinen Code privat, während du KI-Superkräfte freischaltest."
+    },
+    "one_time_license": {
+      "title": "Einmalige Lizenz",
+      "description": "Einmal kaufen, weiter bauen. Optionale Add-ons für Teams und Unternehmen."
+    }
+  },
+  "pricing": {
+    "preview": "Preisvorschau",
+    "title": "Wähle dein Kraftlevel",
+    "starter": {
+      "name": "Starter",
+      "price": "Kostenlos",
+      "period": "(Launch-Promo)",
+      "features": [
+        "Kern-Editor + Syntax",
+        "Lokale Projekte bis zu 1 Repository",
+        "Keine KI oder erweiterte Funktionen"
+      ]
+    },
+    "lite": {
+      "name": "Lite",
+      "price": "Noch festzulegen",
+      "period": "einmalig",
+      "features": [
+        "Vollständiger KI-Build-Assistent",
+        "Multi-Repository-Arbeitsbereiche",
+        "Refactoring & Testgenerierung",
+        "Offline-Modell-Integration"
+      ]
+    },
+    "team": {
+      "name": "Team",
+      "price": "Noch festzulegen",
+      "period": "einmalig",
+      "features": [
+        "Alle Lite-Funktionen",
+        "Kollaborative Projekte",
+        "Team-KI-Workflows"
+      ]
+    },
+    "full": {
+      "name": "Vollständig",
+      "price": "Noch festzulegen",
+      "period": "einmalig",
+      "features": [
+        "Alle Team-Funktionen",
+        "Unternehmens-Integrationen",
+        "Erweiterte KI & Entwicklungstools"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 CoderOne IDE. Alle Rechte vorbehalten."
+  },
+  "star_page": {
+    "title": "⭐ Bewerte CoderOne IDE",
+    "subtitle": "Hilf uns, uns zu verbessern, indem du deine Gedanken teilst und unser Projekt bewertest!",
+    "rate_question": "Wie würdest du CoderOne IDE bewerten?",
+    "click_star": "Klicke auf einen Stern zum Bewerten",
+    "feedback_title": "Teile dein Feedback (optional)",
+    "feedback_placeholder": "Erzähle uns, was du über CoderOne IDE denkst, welche Funktionen du gerne sehen würdest oder Verbesserungsvorschläge...",
+    "submit_rating": "Bewertung & Feedback einreichen",
+    "github_section_title": "⭐ Gib uns einen Stern auf GitHub!",
+    "github_description": "Wenn dir CoderOne IDE gefällt, erwäge bitte, unserem GitHub-Repository einen Stern zu geben, um anderen bei der Entdeckung unseres Projekts zu helfen.",
+    "report_issues": "📝 Probleme melden",
+    "rating_messages": {
+      "1": "😞 Es tut uns leid, das zu hören. Dein Feedback wird uns helfen, uns zu verbessern!",
+      "2": "😐 Es gibt Raum für Verbesserungen. Sag uns, wie wir es besser machen können.",
+      "3": "🙂 Nicht schlecht! Wir würden gerne deine Vorschläge hören.",
+      "4": "😊 Großartig! Wir freuen uns, dass dir CoderOne IDE gefällt.",
+      "5": "🤩 Fantastisch! Danke für die erstaunliche Bewertung!"
+    }
+  },
+  "roadmap": {
+    "title": "CoderOne IDE Roadmap",
+    "items": [
+      "Q3 2025: Öffentlicher Start der Lite-Version (KI-unterstützte Codierung)",
+      "Q4 2025: Team-Version mit kollaborativen Projekten",
+      "Q1 2026: Vollständige IDE mit Unternehmens-Integrationen",
+      "Q2 2026: Offline-KI-Modell-Unterstützung und Plugin-Marktplatz",
+      "Laufend: Kontinuierliche Updates und neue Funktionen basierend auf Nutzerfeedback"
+    ],
+    "invest_btn": "Investor werden"
+  },
+  "investors": {
+    "title": "Investiere in CoderOne IDE",
+    "subtitle": "Schließe dich uns beim Aufbau der ultimativen KI-gestützten IDE an.",
+    "seed_title": "💰 Seed-Investor",
+    "seed_description": "Tritt unserer frühen Finanzierungsrunde bei und hilf dabei, die Zukunft der KI-gestützten Entwicklung zu gestalten.",
+    "seed_features": [
+      "Früher Zugang zu allen Produktversionen",
+      "Direkte Kommunikation mit unserem Entwicklungsteam",
+      "Vierteljährliche Fortschrittsberichte und exklusive Updates",
+      "Potentielle Aktienbeteiligung"
+    ],
+    "growth_title": "🚀 Wachstumspartner",
+    "growth_description": "Partnere mit uns, während wir skalieren und KI-gestützte Entwicklung zu Entwicklern weltweit bringen.",
+    "growth_features": [
+      "Alle Seed-Investor-Vorteile",
+      "Einfluss auf die Produkt-Roadmap",
+      "Beta-Test-Möglichkeiten",
+      "Marketing-Kollaborationsmöglichkeiten"
+    ],
+    "visionary_title": "🌟 Visionärer Unterstützer",
+    "visionary_description": "Schließe dich unserer Vision für die Zukunft der Softwareentwicklung mit bedeutenden Partnerschaftsmöglichkeiten an.",
+    "visionary_features": [
+      "Alle Wachstumspartner-Vorteile",
+      "Strategische Partnerschaftsdiskussionen",
+      "Umsatzbeteiligungsmöglichkeiten",
+      "Ko-Entwicklungsmöglichkeiten"
+    ],
+    "enterprise_title": "🏢 Unternehmenspartner",
+    "enterprise_description": "Maßgeschneiderte Unternehmenslösungen und Integrations-Partnerschaften für große Organisationen.",
+    "enterprise_features": [
+      "Maßgeschneiderte Unternehmenslizenzierung",
+      "Prioritäts-Integrations-Support",
+      "Dedizierte Kontoverwaltung",
+      "Maßgeschneiderte Feature-Entwicklung"
+    ]
+  }
+}

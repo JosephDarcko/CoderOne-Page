@@ -1,0 +1,147 @@
+{
+  "common": {
+    "back_to_home": "← 홈으로 돌아가기",
+    "notify_me": "알림 받기",
+    "submit": "제출",
+    "cancel": "취소",
+    "star_on_github": "★ GitHub에서 스타",
+    "coming_soon": "곧 출시",
+    "view_roadmap": "로드맵 보기"
+  },
+  "navigation": {
+    "brand": "CoderOne IDE",
+    "version": "v0 · 곧 출시"
+  },
+  "hero": {
+    "tagline": "생각하는 대로 구축하세요.<br/>IDE와 대화하고 생성하는 것을 지켜보세요.",
+    "description": "CoderOne IDE는 차세대 IDE입니다. 무료 계층에는 AI나 고급 기능이 없습니다. 유료 계층은 완전한 AI 기반 기능을 잠금 해제합니다."
+  },
+  "features": {
+    "talk_to_code": {
+      "title": "말-to-코드 엔진",
+      "description": "기능을 간단한 한국어로 설명하세요. 유료 버전은 파일을 구성하고, 모듈을 연결하며, 깨끗한 차이점을 커밋합니다."
+    },
+    "offline_first": {
+      "title": "오프라인 우선",
+      "description": "로컬에서 실행됩니다. AI 초능력을 잠금 해제하면서 코드를 비공개로 유지하세요."
+    },
+    "one_time_license": {
+      "title": "일회성 라이선스",
+      "description": "한 번 구매하고 계속 구축하세요. 팀과 기업을 위한 선택적 애드온."
+    }
+  },
+  "pricing": {
+    "preview": "가격 미리보기",
+    "title": "파워 레벨을 선택하세요",
+    "starter": {
+      "name": "스타터",
+      "price": "무료",
+      "period": "(출시 프로모)",
+      "features": [
+        "핵심 에디터 + 구문",
+        "최대 1개 저장소까지의 로컬 프로젝트",
+        "AI나 고급 기능 없음"
+      ]
+    },
+    "lite": {
+      "name": "라이트",
+      "price": "미정",
+      "period": "일회성",
+      "features": [
+        "전체 AI 빌드 어시스턴트",
+        "멀티 저장소 작업공간",
+        "리팩토링 및 테스트 생성",
+        "오프라인 모델 통합"
+      ]
+    },
+    "team": {
+      "name": "팀",
+      "price": "미정",
+      "period": "일회성",
+      "features": [
+        "모든 라이트 기능",
+        "협업 프로젝트",
+        "팀 AI 워크플로우"
+      ]
+    },
+    "full": {
+      "name": "풀",
+      "price": "미정",
+      "period": "일회성",
+      "features": [
+        "모든 팀 기능",
+        "엔터프라이즈 통합",
+        "고급 AI 및 개발 도구"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 CoderOne IDE. 모든 권리 보유."
+  },
+  "star_page": {
+    "title": "⭐ CoderOne IDE 평가",
+    "subtitle": "생각을 공유하고 프로젝트를 평가하여 개선에 도움을 주세요!",
+    "rate_question": "CoderOne IDE를 어떻게 평가하시겠습니까?",
+    "click_star": "별을 클릭하여 평가",
+    "feedback_title": "피드백 공유 (선택사항)",
+    "feedback_placeholder": "CoderOne IDE에 대해 어떻게 생각하는지, 보고 싶은 기능이나 개선 제안 등을 알려주세요...",
+    "submit_rating": "평가 및 피드백 제출",
+    "github_section_title": "⭐ GitHub에서 스타를 주세요!",
+    "github_description": "CoderOne IDE가 마음에 드신다면, 다른 사람들이 프로젝트를 발견할 수 있도록 GitHub 저장소에 스타를 주는 것을 고려해 주세요.",
+    "report_issues": "📝 문제 신고",
+    "rating_messages": {
+      "1": "😞 그렇게 들어서 죄송합니다. 피드백이 개선에 도움이 될 것입니다!",
+      "2": "😐 개선의 여지가 있습니다. 어떻게 더 잘할 수 있는지 알려주세요.",
+      "3": "🙂 나쁘지 않네요! 제안을 듣고 싶습니다.",
+      "4": "😊 훌륭합니다! CoderOne IDE를 좋아해 주셔서 기쁩니다.",
+      "5": "🤩 놀랍습니다! 멋진 평가 감사합니다!"
+    }
+  },
+  "roadmap": {
+    "title": "CoderOne IDE 로드맵",
+    "items": [
+      "2025년 3분기: 라이트 버전 공개 출시 (AI 지원 코딩)",
+      "2025년 4분기: 협업 프로젝트가 포함된 팀 버전",
+      "2026년 1분기: 엔터프라이즈 통합이 포함된 전체 IDE",
+      "2026년 2분기: 오프라인 AI 모델 지원 및 플러그인 마켓플레이스",
+      "지속적: 사용자 피드백을 기반으로 한 지속적인 업데이트 및 새로운 기능"
+    ],
+    "invest_btn": "투자자가 되기"
+  },
+  "investors": {
+    "title": "CoderOne IDE에 투자",
+    "subtitle": "궁극의 AI 기반 IDE 구축에 함께하세요.",
+    "seed_title": "💰 시드 투자자",
+    "seed_description": "초기 자금 조달 라운드에 참여하고 AI 기반 개발의 미래를 형성하는 데 도움을 주세요.",
+    "seed_features": [
+      "모든 제품 버전에 대한 조기 액세스",
+      "개발팀과의 직접 소통",
+      "분기별 진행 보고서 및 독점 업데이트",
+      "잠재적 주식 참여"
+    ],
+    "growth_title": "🚀 성장 파트너",
+    "growth_description": "저희가 확장하고 전 세계 개발자들에게 AI 기반 개발을 제공하는 동안 파트너가 되어 주세요.",
+    "growth_features": [
+      "모든 시드 투자자 혜택",
+      "제품 로드맵에 대한 영향력",
+      "베타 테스트 기회",
+      "마케팅 협력 기회"
+    ],
+    "visionary_title": "🌟 비전 서포터",
+    "visionary_description": "중요한 파트너십 기회와 함께 소프트웨어 개발의 미래에 대한 저희 비전에 동참하세요.",
+    "visionary_features": [
+      "모든 성장 파트너 혜택",
+      "전략적 파트너십 논의",
+      "수익 공유 기회",
+      "공동 개발 가능성"
+    ],
+    "enterprise_title": "🏢 엔터프라이즈 파트너",
+    "enterprise_description": "대규모 조직을 위한 맞춤형 엔터프라이즈 솔루션 및 통합 파트너십.",
+    "enterprise_features": [
+      "맞춤형 엔터프라이즈 라이선싱",
+      "우선 통합 지원",
+      "전담 계정 관리",
+      "맞춤형 기능 개발"
+    ]
+  }
+}

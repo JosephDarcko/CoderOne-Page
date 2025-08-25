@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CoderOne IDE — Coming Soon</title>
-  <meta name="description" content="CoderOne IDE — AI-powered IDE. Build as you think. Coming soon." />
+  <title data-i18n="navigation.brand">CoderOne IDE — Coming Soon</title>
+  <meta name="description" content="CoderOne IDE — AI-powered IDE. Build as you think. Coming soon." data-i18n="hero.description" />
   <meta name="theme-color" content="#0a0a0b" />
   <style>
     /* Existing CSS unchanged */
@@ -54,41 +54,41 @@
 <div class="backdrop" aria-hidden="true"></div>
 <header class="container">
 <nav class="nav">
-<a class="brand" href="#" aria-label="CoderOne IDE Home"><div class="logo"></div><span>CoderOne IDE</span></a>
+<a class="brand" href="#" aria-label="CoderOne IDE Home"><div class="logo"></div><span data-i18n="navigation.brand">CoderOne IDE</span></a>
 <div class="badges">
-<a class="chip" href="#" onclick="openStarPage()">★ Star on GitHub</a>
-<span class="chip">v0 · Coming Soon</span>
+<a class="chip" href="#" onclick="openStarPage()" data-i18n="common.star_on_github">★ Star on GitHub</a>
+<span class="chip" data-i18n="navigation.version">v0 · Coming Soon</span>
 </div>
 </nav>
 </header>
 <main class="container">
 <section class="hero">
-<span class="chip">Coming soon</span>
-<h1>Build as you think.<br/>Talk to your IDE and watch it create.</h1>
-<p class="muted">CoderOne IDE is a next‑gen IDE. Free tier has no AI or advanced features. Paid tiers unlock full AI-powered functionality.</p>
+<span class="chip" data-i18n="common.coming_soon">Coming soon</span>
+<h1 data-i18n="hero.tagline">Build as you think.<br/>Talk to your IDE and watch it create.</h1>
+<p class="muted" data-i18n="hero.description">CoderOne IDE is a next‑gen IDE. Free tier has no AI or advanced features. Paid tiers unlock full AI-powered functionality.</p>
 <div class="cta">
-<a class="btn ghost" href="#" onclick="openRoadmap()">View roadmap</a>
+<a class="btn ghost" href="#" onclick="openRoadmap()" data-i18n="common.view_roadmap">View roadmap</a>
 </div>
 </section>
 <section class="features">
-<article class="feature"><h3>Talk‑to‑Code Engine</h3><p class="muted">Describe features in plain English. Paid versions scaffold files, wire modules, and commit clean diffs.</p></article>
-<article class="feature"><h3>Offline‑First</h3><p class="muted">Runs locally. Keep your code private while unlocking AI superpowers.</p></article>
-<article class="feature"><h3>One‑Time License</h3><p class="muted">Buy once, keep building. Optional add-ons for teams and enterprises.</p></article>
+<article class="feature"><h3 data-i18n="features.talk_to_code.title">Talk‑to‑Code Engine</h3><p class="muted" data-i18n="features.talk_to_code.description">Describe features in plain English. Paid versions scaffold files, wire modules, and commit clean diffs.</p></article>
+<article class="feature"><h3 data-i18n="features.offline_first.title">Offline‑First</h3><p class="muted" data-i18n="features.offline_first.description">Runs locally. Keep your code private while unlocking AI superpowers.</p></article>
+<article class="feature"><h3 data-i18n="features.one_time_license.title">One‑Time License</h3><p class="muted" data-i18n="features.one_time_license.description">Buy once, keep building. Optional add-ons for teams and enterprises.</p></article>
 </section>
 <section class="pricing">
 <div class="panel" style="padding:22px">
-<p class="muted" style="margin:0 0 8px">Pricing preview</p>
-<h2 style="margin:0 0 14px">Choose your power level</h2>
+<p class="muted" style="margin:0 0 8px" data-i18n="pricing.preview">Pricing preview</p>
+<h2 style="margin:0 0 14px" data-i18n="pricing.title">Choose your power level</h2>
 <div class="pricing-grid">
-<div class="price-card"><div class="kicker">Starter</div><div class="price"><span class="amount">Free</span><span class="per">(launch promo)</span></div><ul><li>Core editor + syntax</li><li>Local projects up to 1 repo</li><li>No AI or advanced functions</li></ul><a class="btn ghost" href="#" onclick="notifyMe('Starter')">Notify me</a></div>
-<div class="price-card pop"><div class="kicker">Lite</div><div class="price"><span class="amount">TBA</span><span class="per">one‑time</span></div><ul><li>Full AI build assistant</li><li>Multi-repo workspaces</li><li>Refactor & test generation</li><li>Offline model integration</li></ul><a class="btn primary" href="#" onclick="notifyMe('Full')">Notify me</a></div>
-<div class="price-card"><div class="kicker">Team</div><div class="price"><span class="amount">TBA</span><span class="per">one‑time</span></div><ul><li>All Lite features</li><li>Collaborative projects</li><li>Team AI workflows</li></ul><a class="btn primary" href="#" onclick="notifyMe('Team')">Notify me</a></div>
-<div class="price-card"><div class="kicker">Full</div><div class="price"><span class="amount">TBA</span><span class="per">one‑time</span></div><ul><li>All Team features</li><li>Enterprise integrations</li><li>Advanced AI & dev tools</li></ul><a class="btn primary" href="#" onclick="notifyMe('Full')">Notify me</a></div>
+<div class="price-card"><div class="kicker" data-i18n="pricing.starter.name">Starter</div><div class="price"><span class="amount" data-i18n="pricing.starter.price">Free</span><span class="per" data-i18n="pricing.starter.period">(launch promo)</span></div><ul data-i18n-array="pricing.starter.features"><li>Core editor + syntax</li><li>Local projects up to 1 repo</li><li>No AI or advanced functions</li></ul><a class="btn ghost" href="#" onclick="notifyMe('Starter')" data-i18n="common.notify_me">Notify me</a></div>
+<div class="price-card pop"><div class="kicker" data-i18n="pricing.lite.name">Lite</div><div class="price"><span class="amount" data-i18n="pricing.lite.price">TBA</span><span class="per" data-i18n="pricing.lite.period">one‑time</span></div><ul data-i18n-array="pricing.lite.features"><li>Full AI build assistant</li><li>Multi-repo workspaces</li><li>Refactor & test generation</li><li>Offline model integration</li></ul><a class="btn primary" href="#" onclick="notifyMe('Full')" data-i18n="common.notify_me">Notify me</a></div>
+<div class="price-card"><div class="kicker" data-i18n="pricing.team.name">Team</div><div class="price"><span class="amount" data-i18n="pricing.team.price">TBA</span><span class="per" data-i18n="pricing.team.period">one‑time</span></div><ul data-i18n-array="pricing.team.features"><li>All Lite features</li><li>Collaborative projects</li><li>Team AI workflows</li></ul><a class="btn primary" href="#" onclick="notifyMe('Team')" data-i18n="common.notify_me">Notify me</a></div>
+<div class="price-card"><div class="kicker" data-i18n="pricing.full.name">Full</div><div class="price"><span class="amount" data-i18n="pricing.full.price">TBA</span><span class="per" data-i18n="pricing.full.period">one‑time</span></div><ul data-i18n-array="pricing.full.features"><li>All Team features</li><li>Enterprise integrations</li><li>Advanced AI & dev tools</li></ul><a class="btn primary" href="#" onclick="notifyMe('Full')" data-i18n="common.notify_me">Notify me</a></div>
 </div>
 </div>
 </section>
 <footer class="footer">
-<p class="note">© 2025 CoderOne IDE. All rights reserved.</p>
+<p class="note" data-i18n="footer.copyright">© 2025 CoderOne IDE. All rights reserved.</p>
 </footer>
 <dialog id="notifyModal">
 <div class="modal">
@@ -114,5 +114,6 @@ function submitNotify(){
 function openRoadmap(){ window.open('road_map (1).html','_blank'); }
 function openStarPage(){ window.open('star.html','_blank'); }
 </script>
+<script src="./i18n.js"></script>
 </body>
 </html>
