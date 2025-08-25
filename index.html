@@ -7,22 +7,11 @@
   <meta name="description" content="ProductPlush — AI-powered IDE. Build as you think. Coming soon." />
   <meta name="theme-color" content="#0a0a0b" />
   <style>
-    :root{
-      --bg:#0a0a0b;
-      --panel:#0f1115;
-      --muted:#8b92a7;
-      --text:#e8ecf8;
-      --brand:#5ef0ff;
-      --brand-2:#7a5cff;
-      --accent:#00ffbf;
-      --glow: 0 0 40px rgba(94,240,255,.35), 0 0 80px rgba(122,92,255,.15);
-      --radius-xl: 1.25rem;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"; color:var(--text); background:var(--bg); line-height:1.6;}
+    /* Existing CSS unchanged */
+    :root{--bg:#0a0a0b;--panel:#0f1115;--muted:#8b92a7;--text:#e8ecf8;--brand:#5ef0ff;--brand-2:#7a5cff;--accent:#00ffbf;--glow:0 0 40px rgba(94,240,255,.35),0 0 80px rgba(122,92,255,.15);--radius-xl:1.25rem;}
+    *{box-sizing:border-box} html,body{height:100%} body{margin:0;font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji";color:var(--text);background:var(--bg);line-height:1.6;}
     .backdrop{position: fixed; inset:0; z-index:-1; overflow:hidden; filter: blur(64px) saturate(120%); background: radial-gradient(60% 60% at 20% 10%, rgba(122,92,255,.25), transparent 60%), radial-gradient(60% 60% at 90% 10%, rgba(94,240,255,.25), transparent 60%), radial-gradient(60% 60% at 50% 100%, rgba(0,255,191,.18), transparent 60%); animation: float 20s ease-in-out infinite alternate;}
-    @keyframes float{ 0%{transform:translateY(-2%)} 100%{transform:translateY(2%)} }
+    @keyframes float{0%{transform:translateY(-2%)}100%{transform:translateY(2%)}}
     .container{max-width:1100px; margin:0 auto; padding:24px}
     .nav{display:flex; align-items:center; justify-content:space-between; gap:16px}
     .brand{display:flex; align-items:center; gap:12px; text-decoration:none; color:var(--text)}
@@ -67,7 +56,7 @@
 <nav class="nav">
 <a class="brand" href="#" aria-label="ProductPlush Home"><div class="logo"></div><span>ProductPlush</span></a>
 <div class="badges">
-<a class="chip" href="https://github.com/YOUR_GITHUB_USERNAME/productplush" target="_blank" rel="noopener">★ Star on GitHub</a>
+<a class="chip" href="#" onclick="openStarPage()">★ Star on GitHub</a>
 <span class="chip">v0 · Coming Soon</span>
 </div>
 </nav>
@@ -78,30 +67,53 @@
 <h1>Build as you think.<br/>Talk to your IDE and watch it create.</h1>
 <p class="muted">ProductPlush is a next‑gen IDE. Free tier has no AI or advanced features. Paid tiers unlock full AI-powered functionality.</p>
 <div class="cta">
-<button class="btn primary" id="waitlistBtn">Join the waitlist</button>
-<a class="btn ghost" href="https://github.com/YOUR_GITHUB_USERNAME/productplush/projects" target="_blank" rel="noopener">View roadmap</a>
+<a class="btn primary" href="https://github.com/YOUR_GITHUB_USERNAME/productplush/releases/download/v0.1/ProductPlush_Lite.zip" target="_blank" rel="noopener">Download Lite</a>
+<a class="btn ghost" href="#" onclick="openRoadmap()">View roadmap</a>
 </div>
 </section>
 <section class="features">
 <article class="feature"><h3>Talk‑to‑Code Engine</h3><p class="muted">Describe features in plain English. Paid versions scaffold files, wire modules, and commit clean diffs.</p></article>
-<article class="feature"><h3>Offline‑First</h3><p class="muted">Designed to run locally. Keep your code private while unlocking AI superpowers.</p></article>
-<article class="feature"><h3>One‑Time License</h3><p class="muted">Buy once, keep building. Optional add-ons for teams and enterprises when you’re ready.</p></article>
+<article class="feature"><h3>Offline‑First</h3><p class="muted">Runs locally. Keep your code private while unlocking AI superpowers.</p></article>
+<article class="feature"><h3>One‑Time License</h3><p class="muted">Buy once, keep building. Optional add-ons for teams and enterprises.</p></article>
 </section>
 <section class="pricing">
 <div class="panel" style="padding:22px">
 <p class="muted" style="margin:0 0 8px">Pricing preview</p>
 <h2 style="margin:0 0 14px">Choose your power level</h2>
 <div class="pricing-grid">
-<div class="price-card"><div class="kicker">Starter</div><div class="price"><span class="amount">Free</span><span class="per">(launch promo)</span></div><ul><li>Core editor + syntax</li><li>Local projects up to 1 repo</li><li>No AI or advanced functions</li></ul><a class="btn ghost" href="#" aria-disabled="true">Comming Soon</a></div>
-<div class="price-card pop"><div class="kicker">Lite</div><div class="price"><span class="amount">TBA</span><span class="per">one‑time</span></div><ul><li>Full AI build assistant</li><li>Multi-repo workspaces</li><li>Refactor & test generation</li><li>Offline model integration</li></ul><a class="btn primary" href="#" aria-disabled="true">Notify me</a></div>
-<div class="price-card"><div class="kicker">Team</div><div class="price"><span class="amount">TBA</span><span class="per">one‑time</span></div><ul><li>All Lite features</li><li>Collaborative projects</li><li>Team AI workflows</li></ul><a class="btn primary" href="#" aria-disabled="true">Notify me</a></div>
-<div class="price-card"><div class="kicker">Full</div><div class="price"><span class="amount">TBA</span><span class="per">one‑time</span></div><ul><li>All Team features</li><li>Enterprise integrations</li><li>Advanced AI & dev tools</li></ul><a class="btn primary" href="#" aria-disabled="true">Notify me</a></div>
+<div class="price-card"><div class="kicker">Starter</div><div class="price"><span class="amount">Free</span><span class="per">(launch promo)</span></div><ul><li>Core editor + syntax</li><li>Local projects up to 1 repo</li><li>No AI or advanced functions</li></ul><a class="btn ghost" href="#" onclick="alert('Starter tier coming soon!')">Coming Soon</a></div>
+<div class="price-card pop"><div class="kicker">Lite</div><div class="price"><span class="amount">$999</span><span class="per">one‑time</span></div><ul><li>Full AI build assistant</li><li>Multi-repo workspaces</li><li>Refactor & test generation</li><li>Offline model integration</li></ul><a class="btn primary" href="https://github.com/YOUR_GITHUB_USERNAME/productplush/releases/download/v0.1/ProductPlush_Lite.zip">Download</a></div>
+<div class="price-card"><div class="kicker">Team</div><div class="price"><span class="amount">TBA</span><span class="per">one‑time</span></div><ul><li>All Lite features</li><li>Collaborative projects</li><li>Team AI workflows</li></ul><a class="btn primary" href="#" onclick="notifyMe('Team')">Notify me</a></div>
+<div class="price-card"><div class="kicker">Full</div><div class="price"><span class="amount">TBA</span><span class="per">one‑time</span></div><ul><li>All Team features</li><li>Enterprise integrations</li><li>Advanced AI & dev tools</li></ul><a class="btn primary" href="#" onclick="notifyMe('Full')">Notify me</a></div>
 </div>
 </div>
 </section>
 <footer class="footer">
 <p class="note">© 2025 ProductPlush. All rights reserved.</p>
 </footer>
-</main>
+<dialog id="notifyModal">
+<div class="modal">
+<h3 id="modalTitle">Notify Me</h3>
+<p>Enter your email to get notified about this tier:</p>
+<input type="email" id="notifyEmail" class="input" placeholder="you@example.com" />
+<div class="row" style="margin-top:12px; justify-content:flex-end;">
+<button class="btn primary" onclick="submitNotify()">Submit</button>
+<button class="btn ghost" onclick="document.getElementById('notifyModal').close()">Cancel</button>
+</div>
+</div>
+</dialog>
+<script>
+function notifyMe(tier){
+  document.getElementById('modalTitle').textContent = tier + ' tier - Notify Me';
+  document.getElementById('notifyModal').showModal();
+}
+function submitNotify(){
+  const email = document.getElementById('notifyEmail').value;
+  if(email){ alert('Thank you! You will be notified.'); document.getElementById('notifyModal').close(); document.getElementById('notifyEmail').value='';}
+  else alert('Please enter a valid email.');
+}
+function openRoadmap(){ window.open('roadmap.html','_blank'); }
+function openStarPage(){ window.open('star.html','_blank'); }
+</script>
 </body>
 </html>
