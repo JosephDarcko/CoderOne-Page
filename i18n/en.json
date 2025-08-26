@@ -14,7 +14,7 @@
   },
   "hero": {
     "tagline": "Build as you think.<br/>Talk to your IDE and watch it create.",
-    "description": "CoderOne IDE is a next‑gen IDE. Free tier has no AI or advanced features. Paid tiers unlock full AI-powered functionality."
+    "description": "AI-powered IDE with Talk-to-Code Engine, offline architecture, multi-repo workspaces, AI assistant, refactoring, team collaboration & enterprise features."
   },
   "features": {
     "talk_to_code": {
