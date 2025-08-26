@@ -14,12 +14,32 @@
   },
   "hero": {
     "tagline": "Build as you think.<br/>Talk to your IDE and watch it create.",
-    "description": "AI-powered IDE with Talk-to-Code Engine, offline architecture, multi-repo workspaces, AI assistant, refactoring, team collaboration & enterprise features."
+    "description": "AI-powered IDE with Talk-to-Code Engine, video generation, game development environment, multi-agent AI, anti-hallucination system, persistent memory, offline architecture, multi-repo workspaces, AI assistant, refactoring, team collaboration & enterprise features."
   },
   "features": {
     "talk_to_code": {
       "title": "Talk‑to‑Code Engine",
       "description": "Describe features in plain English. Paid versions scaffold files, wire modules, and commit clean diffs."
+    },
+    "video_generation": {
+      "title": "AI Video Generation",
+      "description": "Generate code documentation videos, tutorials, and presentations directly from your codebase using advanced AI models."
+    },
+    "game_development": {
+      "title": "Game Dev Environment",
+      "description": "All-in-one game development suite with asset management, scene editors, physics simulation, and multi-platform deployment."
+    },
+    "multi_agent": {
+      "title": "Multi‑Agent AI System",
+      "description": "Collaborate with specialized AI agents for architecture, testing, documentation, optimization, and code review."
+    },
+    "anti_hallucination": {
+      "title": "Anti‑Hallucination System",
+      "description": "Advanced verification and validation system ensures AI-generated code is accurate, functional, and follows best practices."
+    },
+    "persistent_memory": {
+      "title": "Persistent Memory",
+      "description": "AI remembers your coding patterns, preferences, and project context across sessions for truly personalized development experience."
     },
     "offline_first": {
       "title": "Offline‑First",
@@ -51,7 +71,9 @@
         "Full AI build assistant",
         "Multi-repo workspaces",
         "Refactor & test generation",
-        "Offline model integration"
+        "Offline model integration",
+        "Basic video generation",
+        "Anti-hallucination system"
       ]
     },
     "team": {
@@ -61,7 +83,10 @@
       "features": [
         "All Lite features",
         "Collaborative projects",
-        "Team AI workflows"
+        "Team AI workflows",
+        "Multi-agent AI system",
+        "Persistent memory",
+        "Game development tools"
       ]
     },
     "full": {
@@ -71,7 +96,10 @@
       "features": [
         "All Team features",
         "Enterprise integrations",
-        "Advanced AI & dev tools"
+        "Advanced AI & dev tools",
+        "Full video generation suite",
+        "Complete game dev environment",
+        "Advanced multi-agent AI"
       ]
     }
   },
@@ -100,10 +128,11 @@
   "roadmap": {
     "title": "CoderOne IDE Roadmap",
     "items": [
-      "Q3 2025: Lite version public launch (AI-assisted coding)",
-      "Q4 2025: Team version with collaborative projects",
-      "Q1 2026: Full IDE with enterprise integrations",
-      "Q2 2026: Offline AI model support and plugin marketplace",
+      "Q3 2025: Lite version public launch (AI-assisted coding, basic video generation)",
+      "Q4 2025: Team version with collaborative projects and multi-agent AI",
+      "Q1 2026: Full IDE with enterprise integrations and game development suite",
+      "Q2 2026: Advanced video generation, persistent memory, and plugin marketplace",
+      "Q3 2026: Complete anti-hallucination system and offline AI model support",
       "Ongoing: Continuous updates and new features based on user feedback"
     ],
     "invest_btn": "Become an Investor"

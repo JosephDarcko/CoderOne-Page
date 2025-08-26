@@ -14,7 +14,7 @@
   },
   "hero": {
     "tagline": "Baue wie du denkst.<br/>Sprich mit deiner IDE und sieh zu, wie sie erstellt.",
-    "description": "CoderOne IDE ist eine IDE der nächsten Generation. Der kostenlose Tier hat keine KI oder erweiterten Funktionen. Bezahlte Tiers schalten die volle KI-gestützte Funktionalität frei."
+    "description": "KI-gestützte IDE mit Talk-to-Code Engine, Videogenerierung, Spielentwicklungsumgebung, Multi-Agent-KI, Anti-Halluzinations-System, persistenter Speicher, Offline-Architektur, Multi-Repo-Arbeitsbereiche, KI-Assistent, Refactoring, Teamzusammenarbeit und Enterprise-Features."
   },
   "features": {
     "talk_to_code": {
@@ -28,6 +28,26 @@
     "one_time_license": {
       "title": "Einmalige Lizenz",
       "description": "Einmal kaufen, weiter bauen. Optionale Add-ons für Teams und Unternehmen."
+    },
+    "video_generation": {
+      "title": "KI-Videogenerierung",
+      "description": "Generieren Sie Code-Dokumentationsvideos, Tutorials und Präsentationen direkt aus Ihrer Codebasis mit fortschrittlichen KI-Modellen."
+    },
+    "game_development": {
+      "title": "Spielentwicklungsumgebung",
+      "description": "All-in-One-Spielentwicklungssuite mit Asset-Management, Szenen-Editoren, Physiksimulation und plattformübergreifender Bereitstellung."
+    },
+    "multi_agent": {
+      "title": "Multi-Agent-KI-System",
+      "description": "Arbeiten Sie mit spezialisierten KI-Agenten für Architektur, Tests, Dokumentation, Optimierung und Code-Review zusammen."
+    },
+    "anti_hallucination": {
+      "title": "Anti-Halluzinations-System",
+      "description": "Fortschrittliches Verifikations- und Validierungssystem stellt sicher, dass KI-generierter Code präzise, funktional ist und bewährte Praktiken befolgt."
+    },
+    "persistent_memory": {
+      "title": "Persistenter Speicher",
+      "description": "Die KI merkt sich Ihre Codierungsmuster, Präferenzen und Projektkontext über Sitzungen hinweg für eine wirklich personalisierte Entwicklungserfahrung."
     }
   },
   "pricing": {
@@ -51,7 +71,9 @@
         "Vollständiger KI-Build-Assistent",
         "Multi-Repository-Arbeitsbereiche",
         "Refactoring & Testgenerierung",
-        "Offline-Modell-Integration"
+        "Offline-Modell-Integration",
+        "Grundlegende Videogenerierung",
+        "Anti-Halluzinations-System"
       ]
     },
     "team": {
@@ -61,7 +83,10 @@
       "features": [
         "Alle Lite-Funktionen",
         "Kollaborative Projekte",
-        "Team-KI-Workflows"
+        "Team-KI-Workflows",
+        "Multi-Agent-KI-System",
+        "Persistenter Speicher",
+        "Spielentwicklungstools"
       ]
     },
     "full": {
@@ -71,7 +96,10 @@
       "features": [
         "Alle Team-Funktionen",
         "Unternehmens-Integrationen",
-        "Erweiterte KI & Entwicklungstools"
+        "Erweiterte KI & Entwicklungstools",
+        "Vollständige Videogenerierungssuite",
+        "Komplette Spielentwicklungsumgebung",
+        "Erweiterte Multi-Agent-KI"
       ]
     }
   },
@@ -100,11 +128,12 @@
   "roadmap": {
     "title": "CoderOne IDE Roadmap",
     "items": [
-      "Q3 2025: Öffentlicher Start der Lite-Version (KI-unterstützte Codierung)",
-      "Q4 2025: Team-Version mit kollaborativen Projekten",
-      "Q1 2026: Vollständige IDE mit Unternehmens-Integrationen",
-      "Q2 2026: Offline-KI-Modell-Unterstützung und Plugin-Marktplatz",
-      "Laufend: Kontinuierliche Updates und neue Funktionen basierend auf Nutzerfeedback"
+      "Q3 2025: Lite-Version öffentlicher Start (KI-unterstützte Codierung, grundlegende Videogenerierung)",
+      "Q4 2025: Team-Version mit kollaborativen Projekten und Multi-Agent-KI",
+      "Q1 2026: Vollständige IDE mit Unternehmensintegrationen und Spielentwicklungssuite",
+      "Q2 2026: Erweiterte Videogenerierung, persistenter Speicher und Plugin-Marktplatz",
+      "Q3 2026: Vollständiges Anti-Halluzinations-System und Offline-KI-Modell-Unterstützung",
+      "Laufend: Kontinuierliche Updates und neue Funktionen basierend auf Benutzerfeedback"
     ],
     "invest_btn": "Investor werden"
   },

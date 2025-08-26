@@ -28,7 +28,8 @@
     .btn:hover{transform: translateY(-1px); transition: transform .15s ease}
     .panel{background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,0)); border:1px solid rgba(255,255,255,.08); border-radius: var(--radius-xl); box-shadow: 0 10px 40px rgba(0,0,0,.35)}
     .features{display:grid; grid-template-columns: repeat(1,1fr); gap:16px; margin:28px 0}
-    @media(min-width:720px){ .features{grid-template-columns: repeat(3,1fr);} }
+    @media(min-width:720px){ .features{grid-template-columns: repeat(2,1fr);} }
+    @media(min-width:1100px){ .features{grid-template-columns: repeat(3,1fr);} }
     .feature{padding:18px; background:var(--panel); border:1px solid rgba(255,255,255,.06); border-radius:16px}
     .feature h3{margin:6px 0 8px}
     .pricing{margin:36px 0 20px}
@@ -72,6 +73,11 @@
 </section>
 <section class="features">
 <article class="feature"><h3 data-i18n="features.talk_to_code.title">Talk‑to‑Code Engine</h3><p class="muted" data-i18n="features.talk_to_code.description">Describe features in plain English. Paid versions scaffold files, wire modules, and commit clean diffs.</p></article>
+<article class="feature"><h3 data-i18n="features.video_generation.title">AI Video Generation</h3><p class="muted" data-i18n="features.video_generation.description">Generate code documentation videos, tutorials, and presentations directly from your codebase using advanced AI models.</p></article>
+<article class="feature"><h3 data-i18n="features.game_development.title">Game Dev Environment</h3><p class="muted" data-i18n="features.game_development.description">All-in-one game development suite with asset management, scene editors, physics simulation, and multi-platform deployment.</p></article>
+<article class="feature"><h3 data-i18n="features.multi_agent.title">Multi‑Agent AI System</h3><p class="muted" data-i18n="features.multi_agent.description">Collaborate with specialized AI agents for architecture, testing, documentation, optimization, and code review.</p></article>
+<article class="feature"><h3 data-i18n="features.anti_hallucination.title">Anti‑Hallucination System</h3><p class="muted" data-i18n="features.anti_hallucination.description">Advanced verification and validation system ensures AI-generated code is accurate, functional, and follows best practices.</p></article>
+<article class="feature"><h3 data-i18n="features.persistent_memory.title">Persistent Memory</h3><p class="muted" data-i18n="features.persistent_memory.description">AI remembers your coding patterns, preferences, and project context across sessions for truly personalized development experience.</p></article>
 <article class="feature"><h3 data-i18n="features.offline_first.title">Offline‑First</h3><p class="muted" data-i18n="features.offline_first.description">Runs locally. Keep your code private while unlocking AI superpowers.</p></article>
 <article class="feature"><h3 data-i18n="features.one_time_license.title">One‑Time License</h3><p class="muted" data-i18n="features.one_time_license.description">Buy once, keep building. Optional add-ons for teams and enterprises.</p></article>
 </section>

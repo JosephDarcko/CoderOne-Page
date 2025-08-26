@@ -14,7 +14,7 @@
   },
   "hero": {
     "tagline": "Costruisci come pensi.<br/>Parla con il tuo IDE e guardalo creare.",
-    "description": "CoderOne IDE è un IDE di nuova generazione. Il livello gratuito non ha IA o funzionalità avanzate. I livelli a pagamento sbloccano tutte le funzionalità alimentate dall'IA."
+    "description": "IDE alimentato da IA con Talk-to-Code Engine, generazione video, ambiente sviluppo giochi, IA multi-agente, sistema anti-allucinazioni, memoria persistente, architettura offline, spazi multi-repository, assistente IA, refactoring, collaborazione team e funzionalità enterprise."
   },
   "features": {
     "talk_to_code": {
@@ -28,6 +28,26 @@
     "one_time_license": {
       "title": "Licenza Una Tantum",
       "description": "Compra una volta, continua a costruire. Add-on opzionali per team e aziende."
+    },
+    "video_generation": {
+      "title": "Generazione Video IA",
+      "description": "Genera video di documentazione del codice, tutorial e presentazioni direttamente dalla tua base di codice usando modelli IA avanzati."
+    },
+    "game_development": {
+      "title": "Ambiente Sviluppo Giochi",
+      "description": "Suite tutto-in-uno per lo sviluppo di giochi con gestione asset, editor di scene, simulazione fisica e distribuzione multi-piattaforma."
+    },
+    "multi_agent": {
+      "title": "Sistema IA Multi-Agente",
+      "description": "Collabora con agenti IA specializzati per architettura, test, documentazione, ottimizzazione e revisione del codice."
+    },
+    "anti_hallucination": {
+      "title": "Sistema Anti-Allucinazioni",
+      "description": "Sistema avanzato di verifica e validazione assicura che il codice generato da IA sia preciso, funzionale e segua le migliori pratiche."
+    },
+    "persistent_memory": {
+      "title": "Memoria Persistente",
+      "description": "L'IA ricorda i tuoi pattern di codifica, preferenze e contesto del progetto attraverso le sessioni per un'esperienza di sviluppo veramente personalizzata."
     }
   },
   "pricing": {
@@ -51,7 +71,9 @@
         "Assistente di build IA completo",
         "Workspace multi-repository",
         "Refactoring e generazione test",
-        "Integrazione modello offline"
+        "Integrazione modello offline",
+        "Generazione video base",
+        "Sistema anti-allucinazioni"
       ]
     },
     "team": {
@@ -61,7 +83,10 @@
       "features": [
         "Tutte le funzionalità Lite",
         "Progetti collaborativi",
-        "Flussi di lavoro IA per team"
+        "Flussi di lavoro IA per team",
+        "Sistema IA multi-agente",
+        "Memoria persistente",
+        "Strumenti sviluppo giochi"
       ]
     },
     "full": {
@@ -71,7 +96,10 @@
       "features": [
         "Tutte le funzionalità Team",
         "Integrazioni aziendali",
-        "IA avanzata e strumenti di sviluppo"
+        "IA avanzata e strumenti di sviluppo",
+        "Suite completa generazione video",
+        "Ambiente completo sviluppo giochi",
+        "IA multi-agente avanzata"
       ]
     }
   },
@@ -100,10 +128,11 @@
   "roadmap": {
     "title": "Roadmap CoderOne IDE",
     "items": [
-      "Q3 2025: Lancio pubblico versione Lite (codifica assistita da IA)",
-      "Q4 2025: Versione Team con progetti collaborativi",
-      "Q1 2026: IDE completo con integrazioni aziendali",
-      "Q2 2026: Supporto modello IA offline e marketplace plugin",
+      "Q3 2025: Lancio pubblico versione Lite (codifica assistita da IA, generazione video base)",
+      "Q4 2025: Versione Team con progetti collaborativi e IA multi-agente",
+      "Q1 2026: IDE completo con integrazioni enterprise e suite sviluppo giochi",
+      "Q2 2026: Generazione video avanzata, memoria persistente e marketplace plugin",
+      "Q3 2026: Sistema completo anti-allucinazioni e supporto modello IA offline",
       "Continuo: Aggiornamenti continui e nuove funzionalità basate sul feedback degli utenti"
     ],
     "invest_btn": "Diventa un Investitore"
