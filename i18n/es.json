@@ -14,12 +14,32 @@
   },
   "hero": {
     "tagline": "Construye como piensas.<br/>Habla con tu IDE y míralo crear.",
-    "description": "CoderOne IDE es un IDE de nueva generación. El nivel gratuito no tiene IA ni funciones avanzadas. Los niveles pagados desbloquean toda la funcionalidad con IA."
+    "description": "IDE con IA que incluye Motor Habla-a-Código, generación de video, entorno de desarrollo de juegos, IA multi-agente, sistema anti-alucinaciones, memoria persistente, arquitectura offline, espacios multi-repositorio, asistente IA, refactorización, colaboración en equipo y características empresariales."
   },
   "features": {
     "talk_to_code": {
       "title": "Motor Habla-a-Código",
       "description": "Describe características en español simple. Las versiones pagadas estructuran archivos, conectan módulos y confirman diferencias limpias."
+    },
+    "video_generation": {
+      "title": "Generación de Video IA",
+      "description": "Genera videos de documentación de código, tutoriales y presentaciones directamente desde tu base de código usando modelos IA avanzados."
+    },
+    "game_development": {
+      "title": "Entorno Dev de Juegos",
+      "description": "Suite todo-en-uno para desarrollo de juegos con gestión de recursos, editores de escena, simulación física y despliegue multiplataforma."
+    },
+    "multi_agent": {
+      "title": "Sistema IA Multi-Agente",
+      "description": "Colabora con agentes IA especializados para arquitectura, pruebas, documentación, optimización y revisión de código."
+    },
+    "anti_hallucination": {
+      "title": "Sistema Anti-Alucinaciones",
+      "description": "Sistema avanzado de verificación y validación asegura que el código generado por IA sea preciso, funcional y siga mejores prácticas."
+    },
+    "persistent_memory": {
+      "title": "Memoria Persistente",
+      "description": "La IA recuerda tus patrones de codificación, preferencias y contexto del proyecto a través de sesiones para una experiencia de desarrollo verdaderamente personalizada."
     },
     "offline_first": {
       "title": "Primero Sin Conexión",
@@ -51,7 +71,9 @@
         "Asistente de construcción IA completo",
         "Espacios de trabajo multi-repositorio",
         "Refactorización y generación de pruebas",
-        "Integración de modelo sin conexión"
+        "Integración de modelo sin conexión",
+        "Generación básica de video",
+        "Sistema anti-alucinaciones"
       ]
     },
     "team": {
@@ -61,7 +83,10 @@
       "features": [
         "Todas las características Ligero",
         "Proyectos colaborativos",
-        "Flujos de trabajo IA para equipos"
+        "Flujos de trabajo IA para equipos",
+        "Sistema IA multi-agente",
+        "Memoria persistente",
+        "Herramientas desarrollo de juegos"
       ]
     },
     "full": {
@@ -71,7 +96,10 @@
       "features": [
         "Todas las características de Equipo",
         "Integraciones empresariales",
-        "IA avanzada y herramientas de desarrollo"
+        "IA avanzada y herramientas de desarrollo",
+        "Suite completa generación de video",
+        "Entorno completo desarrollo de juegos",
+        "IA multi-agente avanzada"
       ]
     }
   },
@@ -100,10 +128,11 @@
   "roadmap": {
     "title": "Hoja de Ruta de CoderOne IDE",
     "items": [
-      "T3 2025: Lanzamiento público versión Ligero (codificación asistida por IA)",
-      "T4 2025: Versión Equipo con proyectos colaborativos",
-      "T1 2026: IDE completo con integraciones empresariales",
-      "T2 2026: Soporte de modelo IA sin conexión y mercado de plugins",
+      "T3 2025: Lanzamiento público versión Ligero (codificación asistida por IA, generación básica de video)",
+      "T4 2025: Versión Equipo con proyectos colaborativos e IA multi-agente",
+      "T1 2026: IDE completo con integraciones empresariales y suite desarrollo de juegos",
+      "T2 2026: Generación avanzada de video, memoria persistente y mercado de plugins",
+      "T3 2026: Sistema completo anti-alucinaciones y soporte modelo IA sin conexión",
       "Continuo: Actualizaciones continuas y nuevas características basadas en comentarios de usuarios"
     ],
     "invest_btn": "Convertirse en Inversor"

@@ -14,12 +14,32 @@
   },
   "hero": {
     "tagline": "Construisez comme vous pensez.<br/>Parlez à votre IDE et regardez-le créer.",
-    "description": "CoderOne IDE est un IDE de nouvelle génération. Le niveau gratuit n'a pas d'IA ou de fonctionnalités avancées. Les niveaux payants débloquent toute la fonctionnalité alimentée par l'IA."
+    "description": "IDE alimenté par l'IA avec Moteur Parole-vers-Code, génération vidéo, environnement développement jeux, IA multi-agent, système anti-hallucinations, mémoire persistante, architecture hors ligne, espaces multi-dépôts, assistant IA, refactorisation, collaboration équipe et fonctionnalités entreprise."
   },
   "features": {
     "talk_to_code": {
       "title": "Moteur Parole-vers-Code",
       "description": "Décrivez les fonctionnalités en français simple. Les versions payantes échafaudent les fichiers, relient les modules et valident des différences propres."
+    },
+    "video_generation": {
+      "title": "Génération Vidéo IA",
+      "description": "Générez des vidéos de documentation de code, tutoriels et présentations directement depuis votre base de code en utilisant des modèles IA avancés."
+    },
+    "game_development": {
+      "title": "Environnement Dév Jeux",
+      "description": "Suite tout-en-un pour le développement de jeux avec gestion d'actifs, éditeurs de scène, simulation physique et déploiement multi-plateforme."
+    },
+    "multi_agent": {
+      "title": "Système IA Multi-Agent",
+      "description": "Collaborez avec des agents IA spécialisés pour l'architecture, les tests, la documentation, l'optimisation et la révision de code."
+    },
+    "anti_hallucination": {
+      "title": "Système Anti-Hallucinations",
+      "description": "Système avancé de vérification et validation assure que le code généré par IA soit précis, fonctionnel et suive les meilleures pratiques."
+    },
+    "persistent_memory": {
+      "title": "Mémoire Persistante",
+      "description": "L'IA se souvient de vos modèles de codage, préférences et contexte de projet à travers les sessions pour une expérience de développement vraiment personnalisée."
     },
     "offline_first": {
       "title": "Hors ligne d'abord",
@@ -51,7 +71,9 @@
         "Assistant de construction IA complet",
         "Espaces de travail multi-dépôts",
         "Refactorisation et génération de tests",
-        "Intégration de modèle hors ligne"
+        "Intégration de modèle hors ligne",
+        "Génération vidéo de base",
+        "Système anti-hallucinations"
       ]
     },
     "team": {
@@ -61,7 +83,10 @@
       "features": [
         "Toutes les fonctionnalités Léger",
         "Projets collaboratifs",
-        "Flux de travail IA d'équipe"
+        "Flux de travail IA d'équipe",
+        "Système IA multi-agent",
+        "Mémoire persistante",
+        "Outils développement de jeux"
       ]
     },
     "full": {
@@ -71,7 +96,10 @@
       "features": [
         "Toutes les fonctionnalités Équipe",
         "Intégrations d'entreprise",
-        "IA avancée et outils de développement"
+        "IA avancée et outils de développement",
+        "Suite complète génération vidéo",
+        "Environnement complet développement jeux",
+        "IA multi-agent avancée"
       ]
     }
   },
@@ -100,10 +128,11 @@
   "roadmap": {
     "title": "Feuille de route CoderOne IDE",
     "items": [
-      "T3 2025 : Lancement public version Léger (codage assisté par IA)",
-      "T4 2025 : Version Équipe avec projets collaboratifs",
-      "T1 2026 : IDE complet avec intégrations d'entreprise",
-      "T2 2026 : Support de modèle IA hors ligne et marché de plugins",
+      "T3 2025 : Lancement public version Léger (codage assisté par IA, génération vidéo de base)",
+      "T4 2025 : Version Équipe avec projets collaboratifs et IA multi-agent",
+      "T1 2026 : IDE complet avec intégrations d'entreprise et suite développement jeux",
+      "T2 2026 : Génération vidéo avancée, mémoire persistante et marché de plugins",
+      "T3 2026 : Système complet anti-hallucinations et support modèle IA hors ligne",
       "En cours : Mises à jour continues et nouvelles fonctionnalités basées sur les commentaires des utilisateurs"
     ],
     "invest_btn": "Devenir un investisseur"
